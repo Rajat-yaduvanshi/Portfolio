@@ -1,9 +1,28 @@
-import React from 'react'
+import React from "react";
+import pdf from "../pdf/Resume.pdf"
+import hero from "./data/hero.json"
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <div className="container home">
+        <div className="left">
+          <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ea.
+          </h1>
 
-export default Home
+          <a href={pdf} download = "Resume.pdf" className="btn btn-outline-warning">
+            Download Resume
+          </a>
+        </div>
+        <div className="right">
+          <div className="img">
+            <img src={`/assets/${hero.imgSrc}`} alt="hero" />
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Home;
