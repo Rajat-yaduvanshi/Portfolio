@@ -114,6 +114,7 @@ a{
 
 .ex-items{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: var(--bg-color);
     margin: 20px;
@@ -122,4 +123,51 @@ a{
     border: 1px solid yellow;
     border-radius: 10px;
     box-shadow: var(--box-shadow);
+}
+
+
+
+/* Skills */
+
+
+.skills{
+    width: 900px;
+}
+
+.skills .items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: yellow;
+    width: 700px; */
+    margin: auto;
+
+}
+
+.skills .items .item{
+    width: calc(33.33%);
+    background-color: black;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid yellow;
+    box-shadow: var(--box-shadow);
+
+}
+
+.skills .items .item img {
+    width: 70px;
+}
+
+
+
+/* Contacts */
+
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

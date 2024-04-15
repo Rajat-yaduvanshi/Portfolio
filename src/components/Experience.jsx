@@ -19,10 +19,12 @@ const Experience = () => {
                     <span style={{ color: "yellowgreen" }}>
                       {data.startDate} {data.endDate}{" "}
                     </span>{" "}
-                    <span style={{color : "whitesmoke"}}>{data.location}</span>
+                    <span style={{color : "yellow"}}>{data.location}</span>
                   </h4>
+                  <span style={{color : "yellow"}} >
                   <h5>{data.experiences[0]}</h5>
                   <h5>{data.experiences[1]}</h5>
+                  </span>
                 </div>
               </div>
             </>
