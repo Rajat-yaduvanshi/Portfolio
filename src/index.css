@@ -167,7 +167,33 @@ a{
 
 
 .contact-icons {
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+.contact-icons .items {
+    background-color: black;
+    margin: 30px;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 2px solid yellow;
+    
+}
+
+.contact-icons .items:hover{
+    background-color: var(--bg-color);
+    box-shadow: var(--box-shadow);
+
+}
+
+
+.contact-icons {
+    font-size: 3rem;
 }
