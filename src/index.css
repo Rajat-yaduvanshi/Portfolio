@@ -108,7 +108,7 @@ a{
 /* EXPERIANCE */
 
 .ex{
-    width: 900px;
+    width: 1200px;
 }
 
 
@@ -131,7 +131,7 @@ a{
 
 
 .skills{
-    width: 900px;
+    width: 1200px;
 }
 
 .skills .items{
@@ -146,7 +146,7 @@ a{
 }
 
 .skills .items .item{
-    width: calc(33.33%);
+    width: calc(30.33%);
     background-color: black;
     margin: 20px;
     text-align: center;
@@ -160,7 +160,6 @@ a{
 .skills .items .item img {
     width: 70px;
 }
-
 
 
 /* Contacts */

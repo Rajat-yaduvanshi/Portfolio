@@ -1,41 +1,30 @@
 [
   {
     "id": 1,
-    "role": "Senior Software Development Engineer SDE - II",
-    "organisation": "Google",
-    "startDate": "Sept, 2023",
+    "role": "Software Engineer | Frontend",
+    "organisation": "VVDN Technologies",
+    "startDate": "Dec, 2021",
     "endDate": "Present",
-    "location": "CA,United State",
+    "location": "Gurgaon, India",
     "experiences": [
-      "Worked on Google Gmail",
-      "Worked with the Google Bard Team"
+      "1 - Successfully developed and implemented complex UI for Internal work using React.js,HTML5, CSS3, and JavaScript, exceeding Key Result Area (KRA) by 123% .",
+      "2 - Implemented state management solutions using Redux and Context API for efficient data flow and application-wide state management.",
+      "3 - Integrated RESTful APIs and GraphQL endpoints to retrieve and display dynamic data within applications.",
+      "4 - Used Jest, Enzyme, and React testing library to write comprehensive unit test cases for ensuring the reliability and functionality of the implemented solutions."
     ],
-    "imageSrc": "company/google.png"
+    "imageSrc": "company/vvdn.png"
   },
   {
     "id": 2,
-    "role": "Software Development Engineer SDE - I",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2022",
-    "endDate": "Aug, 2023",
-    "location": "London, UK",
+    "role": "Software Engineer - Intern",
+    "organisation": "VVDN Technologies",
+    "startDate": "Sep, 2021",
+    "endDate": "Dec, 2021",
+    "location": "Gurgaon, India",
     "experiences": [
-      "Worked on Windows 10 terminal",
-      "Worked on Window 11 Upcoming features"
+      "1 - Developed and maintained small to medium-sized web applications using React.",
+      "2 - Gaine familiarity with MangoDB, Python,TypeScript, Jenkins, Json and Git."
     ],
-    "imageSrc": "company/microsoft.png"
-  },
-  {
-    "id": 3,
-    "role": "Software Development Engineer - Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2021",
-    "endDate": "Jun, 2022",
-    "location": "Bengluru, India",
-    "experiences": [
-      "Worked on Nextflix payment system",
-      "Helped to create UI for video player"
-    ],
-    "imageSrc": "company/netflix.png"
+    "imageSrc": "company/vvdn.png"
   }
 ]

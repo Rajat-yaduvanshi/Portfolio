@@ -20,13 +20,15 @@ const Experience = () => {
                   <h2>{data.role}</h2>
                   <h4>
                     <span style={{ color: "yellowgreen" }}>
-                      {data.startDate} {data.endDate}{" "}
+                      {data.startDate} - {data.endDate}{" | "}
                     </span>{" "}
-                    <span style={{color : "yellow"}}>{data.location}</span>
+                    <span style={{color : "yellowgreen"}}>{data.location}</span>
                   </h4>
                   <span style={{color : "yellow"}} >
                   <h5>{data.experiences[0]}</h5>
                   <h5>{data.experiences[1]}</h5>
+                  <h5>{data.experiences[2]}</h5>
+                  <h5>{data.experiences[3]}</h5>
                   </span>
                 </div>
               </div>
