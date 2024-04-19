@@ -8,7 +8,7 @@ const Home = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "Software Engineer @ VVDN TECHNOLOGIES PVT LTD | React.js| JavaScript | JSX | Material UI | REST APIs | Redux| jquery | HTML5 & CSS3 | BootStrap | Python",
+        "Software Engineer @ VVDN TECHNOLOGIES PVT LTD | React.js | JavaScript | JSX | Material UI | REST APIs | Redux | jquery | HTML5 & CSS3 | BootStrap | Python",
       ],
       typeSpeed: 50,
       backSpeed: 50,
@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <>
       <div className="container home" id = "home">
-        <div className="left" data-aos="fade-up-right" data-aos-duration="1000">
+        <div className="left" data-aos="zoom-in" data-aos-duration="1000">
           <h2 ref={typedRef}></h2>
 
           <a

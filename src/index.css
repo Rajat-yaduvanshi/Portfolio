@@ -48,13 +48,13 @@ a{
 }
 
 .home .left{
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
     width: 700px;
     text-align: center;
     padding: auto;
     border-radius: 30px;
-    border: 1px solid yellow;
-    box-shadow: var(--box-shadow);
+    /* border: 2px solid yellow; */
+    /* box-shadow: var(--box-shadow); */
     /* animation-name: superman;
     animation-duration: 3s;
     animation-iteration-count:infinite ; */
@@ -72,7 +72,7 @@ a{
     height: 350px;
     width: 350px;
     border-radius: 100%;
-    border: 5px solid yellow;
+    border: 1px solid yellow;
     animation-name: superman;
     animation-duration: 3s;
     animation-iteration-count:infinite ;
