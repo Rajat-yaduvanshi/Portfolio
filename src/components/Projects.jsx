@@ -12,6 +12,8 @@ const Projects = () => {
               <div
                 key={data.id}
                 className="my-4 col-sm-6 col-md-4 col-lg-3 mx-3"
+                data-aos="flip-right"
+                data-aos-duration="2000"
               >
                 <div
                   className="card bg-black text-light"
